@@ -1270,13 +1270,13 @@ Para mantener tu acceso ininterrumpido, te recomendaría renovar tu plan pronto.
                       <div className="bg-muted p-2 rounded-md text-xs">
                         <div className="flex justify-between items-center mb-1">
                           <p>
-                            <strong>Nombre:</strong> Jhonny Jesus Vera
+                            <strong>Nombre:</strong> Jhonny Jesus Vera tigsi
                           </p>
                           <Button
                             variant="ghost"
                             size="sm"
                             className="h-6 w-6 p-0"
-                            onClick={() => copyToClipboard("Jhonny Jesus Vera", "westernUnion")}
+                            onClick={() => copyToClipboard("Jhonny Jesus Vera tigsi", "westernUnion")}
                           >
                             {copyState.westernUnion ? <Check className="h-3 w-3" /> : <Copy className="h-3 w-3" />}
                           </Button>
@@ -1296,13 +1296,13 @@ Para mantener tu acceso ininterrumpido, te recomendaría renovar tu plan pronto.
                         </div>
                         <div className="flex justify-between items-center">
                           <p>
-                            <strong>Dirección:</strong> Tigsi, Ecuador, Guayaquil
+                            <strong>Dirección:</strong>  Ecuador, Guayaquil
                           </p>
                           <Button
                             variant="ghost"
                             size="sm"
                             className="h-6 w-6 p-0"
-                            onClick={() => copyToClipboard("Tigsi, Ecuador, Guayaquil", "westernUnion")}
+                            onClick={() => copyToClipboard(" Ecuador, Guayaquil", "westernUnion")}
                           >
                             {copyState.westernUnion ? <Check className="h-3 w-3" /> : <Copy className="h-3 w-3" />}
                           </Button>
@@ -1362,8 +1362,8 @@ Para mantener tu acceso ininterrumpido, te recomendaría renovar tu plan pronto.
                       <p className="text-xs text-muted-foreground">Paquete básico</p>
                     </div>
                     <div className="text-right">
-                      <div className="font-semibold text-xs sm:text-sm">$10</div>
-                      <div className="text-xs text-muted-foreground">$10/1000 tokens</div>
+                      <div className="font-semibold text-xs sm:text-sm">$5.93</div>
+                      <div className="text-xs text-muted-foreground">$5.93/1000 tokens</div>
                     </div>
                   </div>
 
@@ -1393,8 +1393,8 @@ Para mantener tu acceso ininterrumpido, te recomendaría renovar tu plan pronto.
                       <Badge className="mt-1 text-xs py-0 h-4">Mejor valor</Badge>
                     </div>
                     <div className="text-right">
-                      <div className="font-semibold text-xs sm:text-sm">$5.83</div>
-                      <div className="text-xs text-muted-foreground">$5.83/4000 tokens</div>
+                      <div className="font-semibold text-xs sm:text-sm">$11</div>
+                      <div className="text-xs text-muted-foreground">$11/4000 tokens</div>
                     </div>
                   </div>
                 </div>
@@ -1590,4 +1590,3 @@ Para mantener tu acceso ininterrumpido, te recomendaría renovar tu plan pronto.
     </div>
   )
 }
-
